@@ -40,18 +40,26 @@
 <body>
 <?php
 require_once __DIR__ . '/../src/Classes/VegetarianMeal.php';
+require_once __DIR__ . '/../src/Classes/VeganMeal.php';
 
-$vegetarianMeals = [
+$meals = [
         new VegetarianMeal("Salat", "Spar", "Lacto-Ovo-Vegetarian"),
         new VegetarianMeal("Salat", "Spar", "Lacto-Ovo-Vegetarian"),
         new VegetarianMeal("Salat", "Spar", "Lacto-Ovo-Vegetarian"),
         new VegetarianMeal("Salat", "Spar", "Lacto-Ovo-Vegetarian"),
         new VegetarianMeal("Salat", "Spar", "Lacto-Ovo-Vegetarian"),
+
+        new VeganMeal("Salat", "Billa", "AMA Gütesiegel"),
+        new VeganMeal("Salat", "Billa", "AMA Gütesiegel"),
+        new VeganMeal("Salat", "Billa", "AMA Gütesiegel"),
+        new VeganMeal("Salat", "Billa", "AMA Gütesiegel"),
+        new VeganMeal("Salat", "Billa", "AMA Gütesiegel"),
 ];
+
 ?>
 <main>
     <?php
-    foreach ($vegetarianMeals as $meal) {
+    foreach ($meals as $meal) {
         echo $meal->htmlCode();
     }
     ?>
