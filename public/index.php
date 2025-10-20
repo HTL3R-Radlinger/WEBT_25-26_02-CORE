@@ -43,17 +43,17 @@ require_once __DIR__ . '/../src/Classes/VegetarianMeal.php';
 require_once __DIR__ . '/../src/Classes/VeganMeal.php';
 
 $meals = [
-        new VegetarianMeal("Salat", "Spar", "Lacto-Ovo-Vegetarian"),
-        new VegetarianMeal("Salat", "Spar", "Lacto-Ovo-Vegetarian"),
-        new VegetarianMeal("Salat", "Spar", "Lacto-Ovo-Vegetarian"),
-        new VegetarianMeal("Salat", "Spar", "Lacto-Ovo-Vegetarian"),
-        new VegetarianMeal("Salat", "Spar", "Lacto-Ovo-Vegetarian"),
+        new VegetarianMeal("Salat", "Spar", "https://picsum.photos/200/300", "Salat", "Lacto-Ovo-Vegetarian"),
+        new VegetarianMeal("Salat", "Spar", "https://picsum.photos/210/300", "Salat", "Lacto-Ovo-Vegetarian"),
+        new VegetarianMeal("Salat", "Spar", "https://picsum.photos/200/300", "Salat", "Lacto-Ovo-Vegetarian"),
+        new VegetarianMeal("Salat", "Spar", "https://picsum.photos/200/300", "Salat", "Lacto-Ovo-Vegetarian"),
+        new VegetarianMeal("Salat", "Spar", "https://picsum.photos/200/300", "Salat", "Lacto-Ovo-Vegetarian"),
 
-        new VeganMeal("Salat", "Billa", "AMA Gütesiegel"),
-        new VeganMeal("Salat", "Billa", "AMA Gütesiegel"),
-        new VeganMeal("Salat", "Billa", "AMA Gütesiegel"),
-        new VeganMeal("Salat", "Billa", "AMA Gütesiegel"),
-        new VeganMeal("Salat", "Billa", "AMA Gütesiegel"),
+        new VeganMeal("Salat", "Billa", "https://picsum.photos/200/300", "Salat", "AMA Gütesiegel"),
+        new VeganMeal("Salat", "Billa", "https://picsum.photos/200/200", "Salat", "AMA Gütesiegel"),
+        new VeganMeal("Salat", "Billa", "https://picsum.photos/200/300", "Salat", "AMA Gütesiegel"),
+        new VeganMeal("Salat", "Billa", "https://picsum.photos/200/300", "Salat", "AMA Gütesiegel"),
+        new VeganMeal("Salat", "Billa", "https://picsum.photos/200/300", "Salat", "AMA Gütesiegel"),
 ];
 
 ?>
