@@ -26,14 +26,5 @@ abstract class Meal implements MealInterface
         return $this->provider;
     }
 
-    public function htmlCode(): string
-    {
-        return "<article class='meal'>
-                    <img src='$this->imgSrc' alt='$this->imgAlt'>
-                    <div class='meal-content'>
-                        <h2>{$this->getName()} (Vegetarian)</h2>
-                        <p>Provider: {$this->getProvider()}</p>
-                    </div>
-                </article>";
-    }
+    abstract public function htmlCode(): string;
 }
